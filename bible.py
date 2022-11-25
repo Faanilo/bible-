@@ -43,5 +43,8 @@ def search_bible():
         print('END')
     except  json.decoder.JSONDecodeError:
         print('ThatS all versus in ' + book)
-        
+
+
+#specific_bible()
+#search_bible()
 
