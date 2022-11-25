@@ -1,12 +1,14 @@
 import requests
 import json
+import googletrans
+from googletrans import Translator
 
 book = ''
 verse = ''
 url = 'http://getbible.net/json?passage='
 # add for app python
 end = '&raw=true'
-
+translate = Translator()
 
 def specific_bible():
     global book
