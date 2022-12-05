@@ -1,7 +1,5 @@
 import requests
 import json
-import googletrans
-from googletrans import Translator
 
 book = ''
 verse = ''
